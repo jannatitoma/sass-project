@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap");
+.sub-1, .sub-2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 5px; }
+
+h1 {
+  font-size: 60px;
+  font-family: "Gwendolyn", cursive; }
+
+body {
+  background-color: chocolate; }
+
+.navigation-menu ul {
+  list-style-type: none;
+  padding: 0; }
+  .navigation-menu ul li {
+    display: inline-block;
+    font-size: 30px;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 600; }
+    .navigation-menu ul li a {
+      display: block;
+      text-decoration: none;
+      padding: 15px 20px;
+      color: #00ff66;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+      .navigation-menu ul li a:hover {
+        color: blue; }
+    .navigation-menu ul li:hover a {
+      color: red; }
+    .navigation-menu ul li + li {
+      margin-left: 50px; }
+
+.sub-1 {
+  background-color: cadetblue;
+  color: white; }
+
+.sub-2 {
+  background-color: #a07a5f;
+  color: white; }

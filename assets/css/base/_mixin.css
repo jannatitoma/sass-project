@@ -1,0 +1,5 @@
+h2 {
+  background-color: red; }
+  @media (max-width: 992px) {
+    h2 {
+      background-color: transparent; } }

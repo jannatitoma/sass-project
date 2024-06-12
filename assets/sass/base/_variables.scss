@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+$bg-color:brown;
+$font-color:white;
+$body-font:"Gwendolyn", cursive;
+//extend
+%subtitle{
+    font-size:15px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding:4px 8px;
+    border-radius: 5px;
+}

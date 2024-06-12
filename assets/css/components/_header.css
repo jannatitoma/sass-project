@@ -1,0 +1,9 @@
+.navigation-menu ul {
+  list-style-type: none;
+  padding: 0; }
+  .navigation-menu ul li {
+    display: inline-block; }
+    .navigation-menu ul li a {
+      display: block;
+      text-decoration: none;
+      padding: 15px 20px; }

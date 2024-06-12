@@ -1,0 +1,13 @@
+.sub-1{
+    @extend %subtitle;
+    background-color: cadetblue;
+    color: white;
+}
+.sub-2{
+    @extend %subtitle;
+    background-color: rgb(160, 122, 95);
+    color: white;
+}
+.head-2{
+    @include hi;
+}

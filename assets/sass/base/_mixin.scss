@@ -1,0 +1,19 @@
+@mixin hi{
+    font-size: 70px;
+    text-align: center;
+    color: green;
+    background-color: red;
+}
+
+@mixin screen-992{
+    @media (max-width:992px){
+        @content;
+    }
+}
+h2{
+    background-color: red;
+    @include screen-992{
+        background-color: transparent;
+    }
+}
+
